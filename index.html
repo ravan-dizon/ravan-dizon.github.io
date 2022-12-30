@@ -20,10 +20,11 @@
 
     <nav class="navbar">
         <ul>
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a  href="#about">About</a></li>
+            <li id = "top1"class="active"><a href="#home">Home</a></li>
+            <li id ="abt1"><a  href="#about">About</a></li>
             <li><a  href="#education">Education</a></li>
-            <li><a  href="#certificate">Certificate</a></li>
+            <li id="proj1"><a  href="#project">Project</a></li>
+            <li id="cert1"><a  href="#certificate">Certificate</a></li>
             <li><a  href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -40,6 +41,7 @@
     <h1>I'M <span>John Ravan A. Dizon</span></h1>
     <p>A simple person who wants to do anything but in a good way just to fulfill my dreams in life. A simple person who is willing to sacrifice for my better future.
     </p>
+    <a id ="abt" href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
    
 
 </section>
@@ -50,11 +52,12 @@
 
 <section class="about" id="about">
 
-<h1 class="heading"> <span>About</span> Me </h1>
+<h1 class="heading"><br><span>About</span> Me </h1>
 
 <div class="row">
 
     <div class="info">
+        <br>
         <h3> <span> Name : </span><b> John Ravan A. Dizon</b></h3>
         <h3> <span> Age : </span><b> 21 </b></h3>
         <h3> <span> Qualification : </span> <b>Bachelor of Science in Information Technology </b></h3>
@@ -65,25 +68,15 @@
 
     <div class="counter">
 
-        <div class="box">
-            <span><b>1</b></span>
-            <h3>year of experience</h3>
-        </div>
-
-        <div class="box">
-            <span><b>1</b></span>
-            <h3>project completed</h3>
-        </div>
-
-        <div class="box">
-            <span><b>1</b></span>
-            <h3>happy client</h3>
-        </div>
-
-        <div class="box">
+        <a href="#project"  id="proj"><div class="box">
             <span><b>5+</b></span>
-            <h3>certificates</h3>
-        </div>
+            <h3>projects<br></h3>
+        </div></a>
+
+        <a href="#certificate" id ="cert"><div class="box">
+            <span ><b>5+</b></span>
+            <h3>certificates<br></h3>
+        </div></a>
 
     </div>
 
@@ -97,7 +90,7 @@
 
 <section class="education" id="education">
 
-<h1 class="heading"> My <span>Education</span> </h1>
+<h1 class="heading"><br> My <span>Education</span> </h1>
 
 <div class="box-container">
 
@@ -136,11 +129,46 @@
 
 <!-- education section ends -->
 
+<!--Projects-->
+<section class="project" id="project">
+    <h1 class="heading"><br>Project Completed<br></h1>
+    <div class="row">
+        <div class="counter">
+            <div class="box">
+                <span><b><a href="#">PHP</a></b></span>
+                <h3>projects<br></h3>
+            </div>
+
+            <div class="box">
+                <span id ="cert"><b><a href="#">Python</a></b></span>
+                <h3>projects<br></h3>
+            </div>
+             <div class="box">
+                <span><b><a href="https://inspiring-mahavira-4a850c.netlify.app" target="_blank">Angular</a></b></span>
+                <h3>projects<br></h3>
+            </div>
+
+            <div class="box">
+                <span id ="cert"><b><a href="https://github.com/ravan-dizon/IT72-Game-Development-Projects" target="_blank">UNITY</a></b></span>
+                <h3>projects<br></h3>
+            </div>
+             <div class="box">
+                <span><b><a href="#">HTML,CSS,JS<br>Bootstrap</a></b></span>
+                <h3>projects<br></h3>
+            </div>
+
+        </div>
+  
+    </div>
+    
+</section>
+<!--End of Projects-->
+
 <!-- certificate section starts  -->
 
 <section class="certificate" id="certificate">
 
-<h1 class="heading"> My <span>Certificate</span> </h1>
+<h1 class="heading"><br> My <span>Certificate</span> </h1>
 
 <div class="box-container">
 
@@ -178,7 +206,7 @@
 
 <section class="contact" id="contact">
 
-<h1 class="heading"> <span>Contact</span> Me </h1>
+<h1 class="heading"><br> <span>Contact</span> Me </h1>
 
 <div class="row">
 
@@ -214,7 +242,7 @@
 
 <!-- scroll top button  -->
 
-<a href="#home" class="top">
+<a href="#home" class="top" id="top">
     <img src="img/img5.png" alt="">
 </a>
 

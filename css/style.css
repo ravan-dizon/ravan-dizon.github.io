@@ -140,6 +140,9 @@ ul li.active a{
     color: #fff;
 }
 
+span a{
+    color: #78b4d5;
+}
 #menu{
     position: fixed;
     top:2rem; right:2rem;
@@ -204,9 +207,8 @@ ul li.active a{
     color:#eee;
     padding:0 .5rem;
 }
-
 .about .row .counter{
-    flex:1 1 48rem;
+    flex:1 1 50rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -214,9 +216,10 @@ ul li.active a{
 
 .about .row .counter .box{
     width:20rem;
+    height: 20rem;
     background:#222;
     text-align: center;
-    padding: 2rem;
+    padding: 5rem;
     margin:2rem;
 }
 
@@ -224,9 +227,39 @@ ul li.active a{
     font-size: 4rem;
     color:#78b4d5;
 }
-
+.about .row .counter .box:hover{
+    background: #333;
+}
 .about .row .counter .box h3{
     font-size: 2rem;
+    color:#fff;
+}
+
+.project .row .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project .row .counter .box{
+    width:24rem;
+    height: 20rem;
+    background:#222;
+    text-align: center;
+    padding: 6rem;
+    margin:2rem;
+}
+.project .row .counter .box:hover{
+    background: #333;
+}
+.project .row .counter .box span{
+    font-size: 2.5rem;
+    color:#78b4d5;
+}
+
+.project .row .counter .box h3{
+    font-size: 2.5rem;
     color:#fff;
 }
 

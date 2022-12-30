@@ -2,6 +2,26 @@ $(document).on('click','ul li', function(){
          $(this).addClass('active').siblings().removeClass('active')
      })
 
+$('#abt').click(function(){
+  $(this).addClass('active').siblings().removeClass('active') 
+  $('#abt1').addClass('active').siblings().removeClass('active') 
+
+})
+$('#top').click(function(){
+  $(this).addClass('active').siblings().removeClass('active') 
+  $('#top1').addClass('active').siblings().removeClass('active') 
+
+})
+$('#proj').click(function(){
+  $(this).addClass('active').siblings().removeClass('active') 
+  $('#proj1').addClass('active').siblings().removeClass('active') 
+
+})
+$('#cert').click(function(){
+  $(this).addClass('active').siblings().removeClass('active') 
+  $('#cert1').addClass('active').siblings().removeClass('active') 
+})
+
 $(document).ready(function(){
 
   $('#menu').click(function(){
