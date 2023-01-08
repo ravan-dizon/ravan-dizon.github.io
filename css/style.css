@@ -371,7 +371,7 @@ span a{
 }
 
 .contact .row form .box::placeholder{
-    text-transform: capitalize;
+    text-transform: lowercase;
 }
 
 .contact .row form .message{
